@@ -7,7 +7,7 @@
 int main(){
 	int a,i,num,pick;
 	
-	daddy:
+	levi:
 		system("cls");
 	printf("\t \t \t ** Rock Paper Or Scissor** \n");
 	printf("\n Enter Your Pick(1 for rock, 2 for paper and 3 for scissor) \n : ");
@@ -22,6 +22,7 @@ int main(){
 		else if (a == 3){
 			printf("\n You picked scissor");
 		}
+		
 	
 	 for (i = 1; i <= 1; i++)  
     {  
@@ -83,7 +84,7 @@ int main(){
    }
    
    else{
-   	printf("\n Invalid output!");
+   	goto levi;
    }
    
    
@@ -91,7 +92,7 @@ int main(){
    printf("Do you want to continue(1/2): ");
    scanf("%d",&pick);
    if (pick == 1){
-   	goto daddy;
+   	goto levi;
    }
    else
    {
